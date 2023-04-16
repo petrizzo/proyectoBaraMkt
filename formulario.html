@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contáctenos</title>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contáctenos</title>
+        <link rel=”stylesheet” href="css/bootstrap.css">
     </head>
     <body>
         <div>
-        <nav>
-            <ul>
-              <li><a href="#">Bará</a></li>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Quienes Somos</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-            </nav>
+          <nav>
+              <ul>
+                <li><a href="#">Bará</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+          </nav>
         </div>
     <div>
         <h1>Contáctenos</h1>
         <h2>Para mayor información o asesoramiento, complete el formulario y nos comunicaremos a la brevedad.</h2>
         <main>
-            <form>
-                <fildset>
-                <legend>
-                  <div><label>Nombre</label><input type="text" /></div>
-                  <div><label>Email</label><input type="email" value="email@dominio.com" /></div>
-                  <div><label>Telefono</label><input type="tel" /></div>
-                  <div><label>Empresa</label><input type="text" /></div>
-                  <div><label>Sitio Web</label><input type="url" /></div>
-                  <textarea>Cuéntanos a que se dedica tu empresa, que productos y/o servicios ofreces.</textarea>
-               </legend>
-              </fildset>
-              <fieldset>
-                <legend>Selecciona el/los servicios que te interesen</legend>
-                <div>
-                    <input type="radio" id="community manager" name="servicios" value="community manager"
-                           checked>
-                    <label for="community manager">Community Manager</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="publicidad" name="servicios" value="publicidad"
-                           checked>
-                    <label for="publicidad">Publicidad</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="diseño gráfico" name="servicios" value="diseño gráfico"
-                           checked>
-                    <label for="diseño gráfico">Diseño Gráfico</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="tiendas virtuales" name="servicios" value="tiendas virtuales"
-                           checked>
-                    <label for="tiendas virtuales">Tiendas Virtuales</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="estrategia comercial" name="servicios" value="estrategia comercial"
-                           checked>
-                    <label for="estrategia comercial">Estrategia Comercial</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="sitios web/blog" name="servicios" value="sitios web/blog"
-                           checked>
-                    <label for="sitios web/blog">Sitios Web/Blog</label>
-                  </div>
-            </fieldset>
-                <div><input type="submit" value="Enviar" /></div>
-            </form>
-        </main>
-    </div>
-    <footer>
+          <form>
+            <div class="form-group">
+              <label for="nombrecompleto">Nombre completo</label>
+              <input type="text" class="form-control form-control-lg" id="nombrecompleto" placeholder="Introduce tu nombre"></div>
+            <div class="form-group">
+                <label for="Email1">Email address</label>
+                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="correo">
+                <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con terceros.</small>
+            </div>
+              <div class="form-group">
+                <label for="telefono">Número de teléfono con código de área/operadora</label>
+                <input type="number" class="form-control" id="telefono" placeholder="Número de teléfono">
+            </div>
+            <div class="form-group">
+                  <label for="empresa">Nombre de tu empresa</label>
+                  <input type="text" class="form-control" id="empresa"></div>
+            <div class="form-group">
+                    <label for="web">Página web</label>
+                    <input type="text" class="form-control" id="web" placeholder="Página web">
+            </div>     
+            <div class="form-group">
+              <label for="empresa1">Cuéntanos, ¿a qué se dedica tu empresa?</label>
+              <textarea class="form-control" id="empresa1" placeholder="¿Qué hace tu empresa?" rows="3"></textarea></div>
+            <label for="empresa1">Ya para terminar ¿qué servicios te interesan?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="servicios" id="servicios1" value="option1" checked>
+                <label class="form-check-label" for="checkbox1">
+                  Community Manager
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="servicios" id="servicios2" value="option2">
+                <label class="form-check-label" for="checkbox2">
+                  Publicidad
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="checkbox" name="servicios" id="servicios3" value="option3">
+                <label class="form-check-label" for="checkbox3">
+                  Diseño Gráfico
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="checkbox" name="servicios" id="servicios4" value="option4">
+                <label class="form-check-label" for="checkbox4">
+                  Tiendas Virtuales
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="checkbox" name="servicios" id="servicios5" value="option5">
+                <label class="form-check-label" for="checkbox5">
+                  Estrategia Comercial
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="checkbox" name="servicios" id="servicios6" value="option6">
+                <label class="form-check-label" for="checkbox6">
+                  Sitio Web/Blog
+                </label>
+              </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    <footer><center>
         <div><h3>NÚMERO DE TELEFONO +54 9 (011) 3371-9278</h3></div>
-        <div><h3>EMAIL info@baramkt.com.ar</h3></div>
-        <div><h3></h3>INSTAGRAM @bara_mkt</h3></div>
-      </footer>
+        <div><h3>EMAIL <a href="mailto:info@baramkt.com.ar" target="blank">info@baramkt.com.ar</a></h3></div>
+        <div><h3></h3>INSTAGRAM <a href="http://instagram.com/bara_mkt" target="blank">@bara_mkt</a></h3></div>
+      </center></footer>
     </body>
-
-</html>
+  </html>
