@@ -35,14 +35,14 @@ h3 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-row-gap: 10px; */
   grid-template-areas: 
   "caja1 caja2"
   "caja3 caja4";
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 .grid-item {
