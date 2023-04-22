@@ -24,7 +24,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   text-align: center;
-  text-decoration-color: #FF7926;
+  text-decoration-color: #ffffff;
 }
 
 h3 {
@@ -56,8 +56,8 @@ h3 {
 
 .caja1{
   background-color: black;
-  display:flex;
-  align-items:stretch;
+  display:inline;
+  align-items:center;
   grid-column: 1;
 }
 
@@ -72,16 +72,15 @@ h3 {
 
 .caja3{
   background-color: black;
-  display:flex;
-  align-items:stretch;
+  display:inline;
+  align-items:center;
   grid-column:1;
 }
 
 .caja4 {
-  background-color: black;
+  background-color: white
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
-  font-feature-settings: white;
   border-radius: 5px;
   grid-column: 2;
 }
@@ -89,4 +88,5 @@ h3 {
 .interno-caja{
   display:flex;
   align-items:stretch;
+  font-size: 18px;
 }
