@@ -39,6 +39,8 @@ h3 {
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
   background-color: #ffffff;
+  justify-items:normal;
+  align-items: stretch;
 }
 
 .grid-item {

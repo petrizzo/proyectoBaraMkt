@@ -38,13 +38,14 @@ h3 {
   grid-template-columns: 1fr 1fr;
   gap: 10px 10px;
   background-color: #ffffff;
+  justify-items:normal;
+  align-items: stretch;
 }
 
 .grid-item {
   padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
-  font-variant-caps: all-small-caps;
   font-weight: bolder;
   text-align: center;
 }
@@ -63,7 +64,7 @@ h3 {
 }
 
 .caja2 {
-  background-color: #77787b;
+  background-color: #aaaa00;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   border-radius: 5px;
@@ -71,7 +72,7 @@ h3 {
 }
 
 .caja3{
-  background-color: #5d5253;
+  background-color: #777776;
   display:inline;
   align-items:center;
   border-radius: 5px;
@@ -90,5 +91,5 @@ h3 {
   display:flex;
   align-items:stretch;
   font-family: 'Montserrat', serif;
-  font-size: 24px;
+  font-size: 18px;
 }
