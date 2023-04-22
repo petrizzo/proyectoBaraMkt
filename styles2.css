@@ -41,7 +41,7 @@ h3 {
 }
 
 .grid-item {
-  padding: 20px;
+  padding: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-variant-caps: all-small-caps;
@@ -58,27 +58,28 @@ h3 {
   background-color: black;
   display:inline;
   align-items:center;
+  border-radius: 5px;
   grid-column: 1;
 }
 
 .caja2 {
-  background-color: black;
+  background-color: #77787b;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
-  font-feature-settings: white;
   border-radius: 5px;
   grid-column: 2;
 }
 
 .caja3{
-  background-color: black;
+  background-color: #5d5253;
   display:inline;
   align-items:center;
+  border-radius: 5px;
   grid-column:1;
 }
 
 .caja4 {
-  background-color: white
+  background-color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   border-radius: 5px;
@@ -88,5 +89,6 @@ h3 {
 .interno-caja{
   display:flex;
   align-items:stretch;
-  font-size: 18px;
+  font-family: 'Montserrat', serif;
+  font-size: 24px;
 }
