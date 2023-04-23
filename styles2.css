@@ -1,10 +1,25 @@
-@media screen and (min-width:1024px) {
+
+/* diseño para mobile */
+ 
+
+
+/* diseño para tablets pequeñas */
+@media screen and (min-width:620px) {
   .background {
     background-color:white;
 }
 }
 
-@media screen and (max-width:1024px) {
+/* diseño para tablets y laptops */
+@media screen and (min-width:960px) {
+  .background {
+    background-color:white;
+}
+}
+
+
+/* diseño para tdesktop*/
+@media screen and (min-width:1200px) {
   .background {
     background-color:white;
 }
@@ -31,6 +46,17 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-decoration-color: #FF7926;
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    height: 80px;
+    line-height: 75px;
+    gap:40px;
+    display:flex;
+    justify-content: center;
+    background-color:#FD7FCC;
 }
 
 .grid-quienes {

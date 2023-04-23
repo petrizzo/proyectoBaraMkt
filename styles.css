@@ -15,22 +15,34 @@
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   text-align: center;
 }
 
 h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
+  font-weight:bolder;
   text-align: center;
   text-decoration-color: #FF7926;
 }
 
 h3 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-decoration-color: #FF7926;
+}
+
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  height: 80px;
+  line-height: 75px;
+  gap:40px;
+  display:flex;
+  justify-content: center;
+  background-color:#FD7FCC;
 }
 
 .grid-container {
@@ -45,7 +57,7 @@ h3 {
 
 .grid-item {
   font-size: 50px;
-  font-variant-caps: all-small-caps;
+  /* font-variant-caps: all-small-caps; */
   font-weight: bolder;
   text-align: center;
 }
@@ -62,46 +74,52 @@ h3 {
 
 .logo {
   background-color: #000000;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   border-radius: 5px;
-  vertical-align:auto;
+  /* vertical-align: auto; */
+  padding-bottom: 5px;
+  padding-top: 5px;
   grid-column-start: 2;
   grid-column-end: 4;
 }
 
 .blog {
   background-color: #FF7926;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
   grid-row: 1 / 4;
   grid-column: 1 / 1;
 }
 
 .servicios {
   background-color: #03C4A1;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
 }
 
 .quienes {
   background-color: #03C4A1;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
   grid-row: 2 / 3;
   grid-column: 3 / 4;
 }
 
 .footer {
   background-color: #FD7FCC;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   grid-column: 2 / 4;
   grid-row: 3 / 4;
 }
