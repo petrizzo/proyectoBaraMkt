@@ -51,8 +51,8 @@ h3 {
 .menu {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    height: 80px;
-    line-height: 75px;
+    height: 60px;
+    line-height: 55px;
     gap:40px;
     display:flex;
     justify-content: center;

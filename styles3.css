@@ -36,27 +36,40 @@ h3 {
 .menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
-  height: 80px;
-  line-height: 75px;
+  height: 60px;
+  line-height: 55px;
   gap:40px;
   display:flex;
   justify-content: center;
   background-color:#FD7FCC;
 }
 
-.grid-container {
+.menu-footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  height: 60px;
+  line-height: 55px;
+  gap:40px;
+  display:flex;
+  justify-content: center;
+  background-color:aqua;
+}
+
+
+.grid-blog {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(3 1fr);
+  column-gap: 10px;
+  padding: 20px 0px 20px 0px;
   background-color: #ffffff;
+  justify-items:center;
+  align-items: stretch;
 }
 
 .grid-item {
-  /*background-color: #ccc;*/
-  /*padding: 20px;*/
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
-  /* font-variant-caps: all-small-caps; */
   font-weight: bolder;
   text-align: center;
 }
@@ -66,52 +79,29 @@ h3 {
   align-items:center;
 }
 
-.interno-caja{
-  display:flex;
-  align-items:stretch;
+.blog1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  display:grid;
+  justify-items: center;
+  border-radius: 5px;
+  grid-column: 1;
 }
 
-.logo {
-  background-color: #FD7FCC;
+.blog2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 24px;
+  display:grid;
+  justify-items: center;
   border-radius: 5px;
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2;
 }
 
-.blog {
-  background-color: #FF7926;
+.blog3{
   font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  display:grid;
+  justify-items:center;
   border-radius: 5px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-
-.servicios {
-  background-color: #03C4A1;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 5px;
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-}
-
-.quienes {
-  background-color: #03C4A1;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 5px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  grid-row: 2 / 3;
-  grid-column: 3 / 4;
-}
-
-.footer {
-  background-color: #FD7FCC;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 5px;
-  grid-column: 2 /4;
-  grid-row: 3 / 4;
+  grid-column: 3;
 }
