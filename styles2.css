@@ -93,3 +93,48 @@ h3 {
   font-family: 'Montserrat', serif;
   font-size: 18px;
 }
+
+.seccion{
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  padding: 10px;
+}
+
+.grid-seccion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  justify-items:normal;
+  align-items: center;
+}
+
+.mision {
+  width: 250px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1;
+}
+
+.vision {
+  width: 250px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+}
+
+.valores {
+  width: 250px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 3;
+}
