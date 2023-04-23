@@ -12,78 +12,80 @@
     </head>
     <body>
         <div class="container-fluid">
-          <nav class="navbar navbar-expand navbar-light" align="center">
-              <a href="index.html">Inicio</a>
-              <a href="quienes.html">Quienes Somos</a>
-              <a href="#">Servicios</a>
-              <a href="blog.html">Blog</a>
-              <a href="formulario.html">Contáctanos</a>
-          </nav>
+          <nav class="menu" align="center">
+            <a href="index.html">Inicio</a>
+            <a href="quienes.html">Quienes Somos</a>
+            <a href="#">Servicios</a>
+            <a href="blog.html">Blog</a>
+            <a href="formulario.html">Contáctanos</a>
+        </nav>
         </div>
     <div>
         <h1>Contáctenos</h1>
         <h2>Para mayor información o asesoramiento, complete el formulario y nos comunicaremos a la brevedad.</h2></div>
         <main>
           <form>
-            <div class="form-group">
-              <label for="nombrecompleto">Nombre completo</label>
-              <input type="text" class="form-control form-control-lg" id="nombrecompleto" placeholder="Introduce tu nombre"></div><br>
-            <div class="form-group">
-                <label for="Email1">Email address</label>
-                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="correo">
-                <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con terceros.</small>
-            </div><br>
-              <div class="form-group">
-                <label for="telefono">Número de teléfono con código de área/operadora</label>
-                <input type="number" class="form-control" id="telefono" placeholder="Número de teléfono">
-            </div><br>
-            <div class="form-group">
-                  <label for="empresa">Nombre de tu empresa</label>
-                  <input type="text" class="form-control" id="empresa"></div><br>
-            <div class="form-group">
-                    <label for="web">Página web</label>
-                    <input type="text" class="form-control" id="web" placeholder="Página web">
-            </div><br>   
-            <div class="form-group">
-              <label for="empresa1">Cuéntanos, ¿a qué se dedica tu empresa?</label><br>
-              <textarea class="form-control" id="empresa1" placeholder="¿Qué hace tu empresa?" rows="3"></textarea></div><br>
-            <label for="empresa1">Ya para terminar ¿qué servicios te interesan?</label><br>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="servicios" id="servicios1" value="option1" checked>
-                <label class="form-check-label" for="checkbox1">
-                  Community Manager
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="servicios" id="servicios2" value="option2">
-                <label class="form-check-label" for="checkbox2">
-                  Publicidad
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input class="form-check-input" type="checkbox" name="servicios" id="servicios3" value="option3">
-                <label class="form-check-label" for="checkbox3">
-                  Diseño Gráfico
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input class="form-check-input" type="checkbox" name="servicios" id="servicios4" value="option4">
-                <label class="form-check-label" for="checkbox4">
-                  Tiendas Virtuales
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input class="form-check-input" type="checkbox" name="servicios" id="servicios5" value="option5">
-                <label class="form-check-label" for="checkbox5">
-                  Estrategia Comercial
-                </label>
-              </div>
-              <div class="form-check disabled">
-                <input class="form-check-input" type="checkbox" name="servicios" id="servicios6" value="option6">
-                <label class="form-check-label" for="checkbox6">
-                  Sitio Web/Blog
-                </label>
-              </div>
+            <div class="formulario">
+              <div class="form-group formulario-contenido" >
+                <label for="nombrecompleto">Nombre completo</label>
+                <input type="text" class="form-control form-control-lg" id="nombrecompleto" placeholder="Introduce tu nombre"></div><br>
+              <div class="form-group formulario-contenido">
+                  <label for="Email1">Email address</label>
+                  <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="correo">
+                  <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con terceros.</small>
+              </div><br>
+                <div class="form-group formulario-contenido">
+                  <label for="telefono">Número de teléfono con código de área/operadora</label>
+                  <input type="number" class="form-control" id="telefono" placeholder="Número de teléfono">
+              </div><br>
+              <div class="form-group formulario-contenido">
+                    <label for="empresa">Nombre de tu empresa</label>
+                    <input type="text" class="form-control" id="empresa"></div><br>
+              <div class="form-group formulario-contenido">
+                      <label for="web">Página web</label>
+                      <input type="text" class="form-control" id="web" placeholder="Página web">
+              </div><br>   
+              <div class="form-group formulario-contenido">
+                <label for="empresa1">Cuéntanos, ¿a qué se dedica tu empresa?</label><br>
+                <textarea class="form-control formulario-contenido" id="empresa1" placeholder="¿Qué hace tu empresa?" rows="3"></textarea></div><br>
+              <label for="empresa1" class="formulario-contenido">Ya para terminar ¿qué servicios te interesan?</label><br>
+              <div class="form-check formulario-contenido">
+                <input class="form-check-input" type="checkbox" name="servicios" id="servicios1" value="option1" checked>
+                  <label class="form-check-label" for="checkbox1">
+                    Community Manager
+                  </label>
+                </div>
+                <div class="form-check formulario-contenido">
+                  <input class="form-check-input" type="checkbox" name="servicios" id="servicios2" value="option2">
+                  <label class="form-check-label" for="checkbox2">
+                    Publicidad
+                  </label>
+                </div>
+                <div class="form-check disabled formulario-contenido">
+                  <input class="form-check-input" type="checkbox" name="servicios" id="servicios3" value="option3">
+                  <label class="form-check-label" for="checkbox3">
+                    Diseño Gráfico
+                  </label>
+                </div>
+                <div class="form-check disabled formulario-contenido">
+                  <input class="form-check-input" type="checkbox" name="servicios" id="servicios4" value="option4">
+                  <label class="form-check-label" for="checkbox4">
+                    Tiendas Virtuales
+                  </label>
+                </div>
+                <div class="form-check disabled formulario-contenido">
+                  <input class="form-check-input" type="checkbox" name="servicios" id="servicios5" value="option5">
+                  <label class="form-check-label" for="checkbox5">
+                    Estrategia Comercial
+                  </label>
+                </div>
+                <div class="form-check disabled formulario-contenido">
+                  <input class="form-check-input" type="checkbox" name="servicios" id="servicios6" value="option6">
+                  <label class="form-check-label" for="checkbox6">
+                    Sitio Web/Blog
+                  </label>
+                </div>  
+               </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
     <footer><center>

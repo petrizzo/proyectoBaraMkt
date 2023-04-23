@@ -59,6 +59,19 @@ h3 {
     background-color:#FD7FCC;
 }
 
+.formulario {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.formulario-contenido{
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  grid-column: 2;
+}
+
 .grid-quienes {
   display: grid;
   grid-template-columns: 1fr 1fr;
