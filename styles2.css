@@ -1,27 +1,17 @@
 
-/* diseño para mobile */
- 
-
-
-/* diseño para tablets pequeñas */
-@media screen and (min-width:620px) {
-  .background {
-    background-color:white;
-}
-}
-
 /* diseño para tablets y laptops */
 @media screen and (min-width:960px) {
-  .background {
-    background-color:white;
+  .grid-container {
+    width: 80%;
+    max-width: 960px;
 }
 }
-
 
 /* diseño para tdesktop*/
 @media screen and (min-width:1200px) {
-  .background {
-    background-color:white;
+  .grid-container {
+    width: 90%;
+    max-width: 1024px;
 }
 }
 
@@ -31,7 +21,7 @@
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 54px;
   text-align: center;
 }
 

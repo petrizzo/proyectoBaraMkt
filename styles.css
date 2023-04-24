@@ -1,12 +1,16 @@
-@media screen and (min-width:1024px) {
-  .background {
-    background-color:white;
+/* diseño para tablets y laptops */
+@media screen and (min-width:960px) {
+  .grid-container {
+    width: 80%;
+    max-width: 960px;
 }
 }
 
-@media screen and (max-width:1024px) {
-  .background {
-    background-color:white;
+/* diseño para tdesktop*/
+@media screen and (min-width:1200px) {
+  .grid-container {
+    width: 90%;
+    max-width: 1024px;
 }
 }
 
@@ -16,16 +20,15 @@
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
+  font-size: 54px;
   text-align: center;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  font-weight:bolder;
   text-align: center;
-  text-decoration-color: #FF7926;
+  text-decoration-color: #ffffff;
 }
 
 h3 {
